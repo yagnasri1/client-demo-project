@@ -33,13 +33,13 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-            <url>http://172.16.151.70:8081/nexus/content/repositories/releases/</url>
+            <url>http://172.16.151.70:8082/nexus/content/repositories/releases/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
-                     <url>http://172.16.151.70:8081/nexus/content/repositories/snapshots/</url>
+                     <url>http://172.16.151.70:8082/nexus/content/repositories/snapshots/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
@@ -60,8 +60,7 @@
 	</build>
 	  <properties>
             <project.scm.id>git</project.scm.id>
-            <sonar.host.url>http://172.16.151.70:9000/</sonar.host.url>
-         </properties>
+          </properties>
 	  <scm>
 		<url>https://github.com/NagireddyGuduru/client-demo-project</url>
 		<connection>scm:git:https://github.com/NagireddyGuduru/client-demo-project.git</connection>
