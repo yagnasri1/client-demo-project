@@ -31,15 +31,15 @@
 	</dependencies>
 	<distributionManagement>
         <repository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>Internal Releases</name>
-            <url>http://13.59.99.220:8081/nexus/content/repositories/releases/</url>
+            <url>http://52.40.142.221:8081/nexus/content/repositories/releases/</url>
 			<uniqueVersion>false</uniqueVersion>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
+            <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-                     <url>http://13.59.99.220:8081/nexus/content/repositories/snapshots/</url>
+                     <url>http://52.40.142.221:8081/nexus/content/repositories/snapshots/</url>
 			<uniqueVersion>false</uniqueVersion>
         </snapshotRepository>
     </distributionManagement>
@@ -62,9 +62,9 @@
             <project.scm.id>git</project.scm.id>
          </properties>
 	  <scm>
-		<url>https://github.com/rajeshd86evops/client-demo-project</url>
-		<connection>scm:git:https://github.com/rajeshd86evops/client-demo-project</connection>
-		<developerConnection>scm:git:https://github.com/rajeshd86evops/client-demo-project</developerConnection>
+		<url>https://github.com/shankaradapa/client-demo-project</url>
+		<connection>scm:git:https://github.com/shankaradapa/client-demo-project</connection>
+		<developerConnection>scm:git:https://github.com/shankaradapa/client-demo-project</developerConnection>
 	    <tag>HEAD</tag>
   </scm>
 	<profiles>
